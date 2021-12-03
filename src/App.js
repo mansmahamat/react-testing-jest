@@ -1,5 +1,7 @@
 import './App.css';
 import Button from './components/Button';
+import Checkbox from './components/Checkbox';
+import Input from './components/Input';
 import Todo from './components/Todo';
 
 function App() {
@@ -18,6 +20,8 @@ function App() {
         return (<Todo todo={todo} />)
       })}
       <Button label="Click me" />
+      <Input />
+      <Checkbox />
     </div>
   );
 }
