@@ -9,7 +9,7 @@ function Todo({ todo }) {
 
   return (
     <div data-testid={`todo-${id}`}>
-      {text}
+      {text} 
     </div>
   )
 }

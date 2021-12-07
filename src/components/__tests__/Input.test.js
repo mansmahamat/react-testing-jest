@@ -16,7 +16,7 @@ describe("<Input />", () => {
     test('render email input', () => {
         const { queryByTestId } = render(<Input placeholder="Name" />)
 
-        expect(queryByTestId("input")).toHaveAttribute("type", "email");
+        expect(queryByTestId("input")).toHaveAttribute("type", "text");
       });
 
   })
